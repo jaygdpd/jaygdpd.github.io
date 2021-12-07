@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/style.css" rel="stylesheet" />
-    <link href="/favicon.png" rel="icon" />
-    <title>Jay's Portfolio</title>
-    <style>
-          .nav-bar {
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/style.css" rel="stylesheet" />
+  <link href="/favicon.png" rel="icon" />
+  <title>Jay's Portfolio</title>
+  <style>
+    .nav-bar {
       font-size: 1.2rem;
       top: 0;
       left: 0;
       z-index: 100;
       width: 100%;
       height: 6rem;
-      background-color: #000000;
+      background-color: rgba(0, 0, 0, 0.8);
       position: fixed;
       display: flex;
       align-items: center;
@@ -24,41 +25,137 @@
     body {
       background-color: black;
     }
+
     .content {
-  position: relative;
-  top: 6.5rem;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 8rem;
-  padding: 0.6rem;
-  background-color: black;
-  border-radius: 10px;
-  padding-bottom: 1rem;
-}
-h1, h2, p {
-  color: white;
-}
+      position: relative;
+      top: 6.5rem;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-bottom: 8rem;
+      padding: 0.6rem;
+      background-color: black;
+      border-radius: 10px;
+      padding-bottom: 1rem;
 
-    </style>
-  </head>
+    }
 
-  <body>
-    <!-- Navbar-->
+    .logo {
+      width: 50%;
+      height: 50%;
+    }
 
-    <nav class="nav-bar">
-      <div class="title">
-        <h2><a href="/index.html">Home</a></h2>
-      </div>
-      <div class="links">
-        <h2><a href="/quarter_1/">Q1</a> | <a href="/quarter_2/">Q2</a> | <a href="/quarter_3/">Q3</a> | <a href="/quarter_4/">Q4</a></h2>
-      </div>
-    </nav>
+    h1,
+    h2,
+    h3,
+    p,
+    li {
+      color: white;
+      text-align: center;
+      line-height: 3rem;
+    }
 
-    <!-- Content -->
+    .image-container {
+      display: flex;
+      justify-content: center;
+    }
 
-    <div class="content">
-      <img src="/media/iconic/logo.png" class="image-fullsize">
-      <h1>ICONIC LOGO DESIGN</h1>
+    .flex {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar-->
+
+  <nav class="nav-bar">
+    <div class="title">
+      <h2><a href="/index.html">Home</a></h2>
     </div>
-  </body>
+    <div class="links">
+      <h2><a href="/quarter_1/">Q1</a> | <a href="/quarter_2/">Q2</a> | <a href="/quarter_3/">Q3</a> | <a
+          href="/quarter_4/">Q4</a></h2>
+    </div>
+  </nav>
+
+  <!-- Content -->
+
+  <div class="content">
+    <div class="image-container">
+      <img src="/media/iconic/logo.png" class="logo">
+    </div>
+
+      <h1><br>ICONIC LOGO DESIGN</h1>
+      <h2><em>The Rising Phoenix</em></h2>
+      <div style="height: 100px;"></div>
+      <hr>
+      <h2>Preparation</h2>
+      <p><strong>Guiding Questions - Pre-Illustration</strong></p>
+      <p>
+        <strong>What is your target audience for the logo?</strong><br>
+        People who meet me online or in real life. I'm making an icon for myself.<br>
+        <strong>What hobbies, interests, or messages would you like to include in the logo?</strong>
+        </p>
+        <ul>
+          <li>Graphic Design</li>
+          <li>Coding</li>
+          <li>D&D</li>
+          <li>Programming</li>
+          <li>Drawing</li>
+          <li>Video Games</li>
+          <li>Politics</li>
+          <li>Space</li>
+        </ul>
+        <p>
+        <strong>Does your client ( maybe you?) have a history that can be incorporated into the logo?</strong><br>
+        I'm an immigrant, so maybe that could affect the design.<br>
+        <strong>Where is the logo going to be displayed / used most commonly?  How will this affect your design?</strong><br>
+        Possibly a shirt or profile picture. It will have to be compact and legible when small.<br>
+        <strong>List five specific things that you would like your logo to represent!!!  Think actions, feelings, etc.</strong><br></p>
+        <ul>
+          <li>Freedom</li>
+          <li>Defiance</li>
+          <li>Transformation</li>
+          <li>Progress</li>
+          <li>Energy</li>
+        </ul>
+        <div style="height: 50px;"></div>
+    <hr>
+    <div style="height: 50px;"></div>
+      <div class="image-container">
+        <img src="/media/iconic/brainstorming.jpg" class="logo">
+      </div>
+      <h3>Brainstorming Sketches</h3>
+      <div style="height: 50px;"></div>
+
+      <hr>
+      <div style="height: 50px;"></div>
+      <div class="image-container">
+        <img src="/media/iconic/intermediate.jpg" class="logo">
+      </div>
+      <h3>Intermediate Sketches</h3>
+      <div style="height: 50px;"></div>
+
+      <hr>
+      <div style="height: 50px;"></div>
+      <div class="image-container">
+        <img src="/media/iconic/final.jpg" class="logo">
+      </div>
+      <h3>Final Sketch</h3>
+      <div style="height: 50px;"></div>
+
+      <hr>
+      <div style="height: 50px;"></div>
+      <div style="height: 50px;"></div>
+
+      <div class="image-container">
+        <img src="/media/iconic/alt.png" class="logo">
+      </div>
+      <h2>Alternate Logo</h2>
+      <hr>
+
+  </div>
+</body>
+
 </html>
